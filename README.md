@@ -91,11 +91,7 @@ The project structure is organized as follows:
 └── next.config.ts                # Next.js configuration
 ```
 
-### Running Tests
 
-The tests are written using **Jest**, and you can run them with the following command:
-
-```sh
 npm run test
 ```
 
