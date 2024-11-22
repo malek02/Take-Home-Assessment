@@ -90,9 +90,3 @@ The project structure is organized as follows:
 ├── postcss.config.mjs            # PostCSS configuration
 └── next.config.ts                # Next.js configuration
 ```
-
-
-npm run test
-```
-
-This will run the Jest test suite and output the results in the terminal.
