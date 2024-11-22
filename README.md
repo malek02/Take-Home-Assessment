@@ -46,6 +46,22 @@ npm run dev
 
 The project will now be running at [http://localhost:3000](http://localhost:3000).
 
+### Running the Application with Docker
+
+To run the application using Docker, follow these steps:
+
+1. **Build the Docker Image**:
+    ```sh
+    docker build -t campaign-management .
+    ```
+
+2. **Run the Docker Container**:
+    ```sh
+    docker run -p 3000:3000 campaign-management
+    ```
+
+The application will now be accessible at [http://localhost:3000](http://localhost:3000).
+
 ### Running Tests
 
 To run the tests for the project, use the following command:
