@@ -60,7 +60,7 @@ export default function SummaryStep({values}:SummaryStepProps) {
               <Picture className="h-5 w-5 text-indigo-500" />
               Selected Images
             </h3>
-          <div className="grid grid-cols-2 max-h-[180px] overflow-auto md:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 max-h-[180px] overflow-auto sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-2">
             {values?.selectedImage.map((url:string, index:number) => (
               <div key={index} className="relative aspect-video rounded-md overflow-hidden">
                 <Image
@@ -79,7 +79,7 @@ export default function SummaryStep({values}:SummaryStepProps) {
               <Video className="h-5 w-5 text-red-500" />
               Selected Videos
             </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[160px] overflow-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3 gap-4 max-h-[160px] overflow-auto">
             {values?.selectedVideo.map((url:string, index:number) => (
               <div key={index} className="w-full h-full  rounded-md ">
                 <video
