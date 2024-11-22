@@ -31,6 +31,7 @@ describe("Checkbox Component", () => {
 
   it("handles user interaction (checking and unchecking)", async () => {
     const user = userEvent.setup();
+    
     render(<Checkbox data-testid="checkbox" />);
     const checkbox = screen.getByTestId("checkbox");
 

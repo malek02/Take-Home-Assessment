@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
 import { Input } from "./input";
@@ -24,6 +24,7 @@ describe("Input Component", () => {
 
   it("handles input value change", async () => {
     const user = userEvent.setup();
+
     render(<Input placeholder="Test input" data-testid="input" />);
     const input = screen.getByTestId("input");
 
@@ -34,6 +35,7 @@ describe("Input Component", () => {
 
   it("handles input focus", async () => {
     const user = userEvent.setup();
+    
     render(<Input placeholder="Test input" data-testid="input" />);
     const input = screen.getByTestId("input");
 
