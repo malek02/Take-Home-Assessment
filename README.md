@@ -72,6 +72,14 @@ Alternatively, you can use **Docker Compose**:
 
 The application will now be accessible at [http://localhost:3000](http://localhost:3000).
 
+### Deployed Application
+
+The application is also deployed and accessible at the following domain:  
+[https://assessment-native-ads-bgqp.vercel.app/](https://assessment-native-ads-bgqp.vercel.app/).
+
+You can visit the link to check out the live version of the application.
+
+
 ### Running Tests
 
 To run the tests for the project, use the following command:
