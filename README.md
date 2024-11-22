@@ -59,6 +59,11 @@ To run the application using Docker, follow these steps:
     ```sh
     docker run -p 3000:3000 campaign-management
     ```
+3. **Using Docker Compose**:
+To run the project using Docker Compose, execute the following commands:
+
+```bash
+docker-compose up --build
 
 The application will now be accessible at [http://localhost:3000](http://localhost:3000).
 
