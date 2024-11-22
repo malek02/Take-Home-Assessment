@@ -33,7 +33,6 @@ export default function MediaSelection({ values }: MediaSelectionProps) {
   const videoAssets = [
     { url: "https://cdn.pixabay.com/video/2023/01/07/145662-787248079_large.mp4" },
     { url: "https://www.shutterstock.com/shutterstock/videos/3498819571/preview/stock-footage-monitor-agenda-events-using-scrum-software-on-desktop-computer.mp4" },
-
     { url: "https://cdn.pixabay.com/video/2021/02/02/63840-508272975_large.mp4" },
     { url: "https://cdn.pixabay.com/video/2023/10/15/185092-874643408_large.mp4" },
     { url: "https://cdn.pixabay.com/video/2020/04/09/35573-407595474_large.mp4" },
@@ -169,10 +168,8 @@ export default function MediaSelection({ values }: MediaSelectionProps) {
                       className={isSelected ? "opacity-20 ":""}
                       width={220}
                       height={200}
+                      autoPlay
                       onClick={handleToggleSelection}
-                      // onMouseEnter={(e: any) => e?.target?.play()}
-                      //onMouseLeave={(e: any) => e?.target?.pause()}
-                
                     />
                   </div>
                 );

@@ -85,6 +85,7 @@ export default function SummaryStep({values}:SummaryStepProps) {
                 <video
                   src={url}
                   controls
+                  autoPlay
                   className="w-full h-full object-cover"
                 >
                   Your browser does not support the video tag.
