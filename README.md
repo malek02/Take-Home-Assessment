@@ -27,7 +27,7 @@ Follow these instructions to set up and run the project locally.
 2. Navigate into the cloned directory:
 
     ```sh
-    cd Take-Home-Assessment
+    cd assessment-NativeAds
     ```
 
 3. Install npm dependencies:
