@@ -62,9 +62,9 @@ To run the application using Docker, follow these steps:
     docker run -p 3000:3000 campaign-management
     ```
 
-3. **Using Docker Compose**:
+Alternatively, you can use **Docker Compose**:
 
-    To run the project using Docker Compose, execute the following commands:
+1. Run the project using Docker Compose with the following command:
 
     ```bash
     docker-compose up --build
