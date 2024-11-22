@@ -27,8 +27,7 @@ export default function Home() {
   }, []);
 
   return (
-  
-      <>
+    <>
       <div className=" w-full h-full drop-shadow-xl py-[2%] px-[10%] font-[family-name:var(--font-geist-sans)]">
         <Formik
           key={'key'}
@@ -145,7 +144,6 @@ export default function Home() {
         </Formik>
       </div>
       <Toaster className="z-50" />
-      </>
-  
+    </>
   );
 }
