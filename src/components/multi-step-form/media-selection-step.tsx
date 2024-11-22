@@ -31,9 +31,9 @@ export default function MediaSelection({ values }: MediaSelectionProps) {
   ];
 
   const videoAssets = [
-    { url: "https://cdn.pixabay.com/video/2023/01/07/145662-787248079_large.mp4" },
+    { url: "https://videos.pexels.com/video-files/7895583/7895583-hd_1920_1080_30fps.mp4" },
     { url: "https://www.shutterstock.com/shutterstock/videos/3498819571/preview/stock-footage-monitor-agenda-events-using-scrum-software-on-desktop-computer.mp4" },
-    { url: "https://cdn.pixabay.com/video/2021/02/02/63840-508272975_large.mp4" },
+    { url: "https://videos.pexels.com/video-files/8633314/8633314-sd_640_360_30fps.mp4" },
     { url: "https://cdn.pixabay.com/video/2023/10/15/185092-874643408_large.mp4" },
     { url: "https://cdn.pixabay.com/video/2020/04/09/35573-407595474_large.mp4" },
   ];
