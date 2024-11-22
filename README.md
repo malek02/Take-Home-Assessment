@@ -21,7 +21,7 @@ Follow these instructions to set up and run the project locally.
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/malek02/Take-Home-Assessment.git
+    git clone https://github.com/malek02/assessment-NativeAds.git
     ```
 
 2. Navigate into the cloned directory:
@@ -82,7 +82,7 @@ This will execute the Jest test suite for the project.
 The project structure is organized as follows:
 
 ```
-.
+.assessment-NativeAds
 ├── src/
 │   ├── app/
 │   │   ├── favicon.ico           # Favicon for the app
