@@ -168,7 +168,7 @@ export default function MediaSelection({ values }: MediaSelectionProps) {
                       className={isSelected ? "opacity-20 ":""}
                       width={220}
                       height={200}
-                      autoPlay
+                   
                       onClick={handleToggleSelection}
                     />
                   </div>
